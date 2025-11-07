@@ -8,8 +8,9 @@ body{margin:0;background:var(--bg);font-family:Inter,system-ui,Segoe UI,Roboto,'
 .wrap{max-width:820px;margin:3rem auto;padding:0 1rem}
 .card{background:var(--card);padding:1.2rem;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
 .grid .field{display:block;margin-bottom:.6rem}
-input{width:100%;padding:.6rem;border:1px solid #e6e6e6;border-radius:8px}
+input{width:100%;padding:.6rem;margin:16px 0;border:1px solid #e6e6e6;border-radius:8px}
 button{background:var(--accent);color:#fff;border:none;padding:.6rem 1rem;border-radius:8px;cursor:pointer}
 .muted{color:var(--muted)}
 .small{font-size:.85rem}
 .header{display:flex;align-items:center;justify-content:space-between}
+footer{margin:16px;}
